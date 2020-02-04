@@ -1,6 +1,6 @@
 {
   "name": "lexical-density-counter",
-  "main": "./src/app.js",
+  "main": "src/server.js",
   "scripts": {
     "test": "jest",
     "start": "node src/server.js"
