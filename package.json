@@ -1,0 +1,35 @@
+{
+  "name": "lexical-density-counter",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node src/server.js"
+  },
+  "author": "Joynal Abedin",
+  "license": "MIT",
+  "homepage": "https://github.com/joynal/lexical-density-counter",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "jest": "^25.1.0"
+  },
+  "jest": {
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validation": "^1.0.3",
+    "helmet": "^3.21.2",
+    "http-status": "^1.4.2",
+    "joi": "^14.3.1",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1"
+  }
+}
